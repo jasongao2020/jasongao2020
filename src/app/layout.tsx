@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import WechatButton from "@/components/ui/WechatButton";
 
 export const metadata: Metadata = {
   title: "高平 · AI时代的一人公司实践者",
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <body>
         <Header />
+        <WechatButton />
         {children}
         <Footer />
       </body>

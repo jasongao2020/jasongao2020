@@ -9,21 +9,32 @@ import CooperateSection from "@/components/sections/CooperateSection";
 import WhyMeSection from "@/components/sections/WhyMeSection";
 import GithubSection from "@/components/sections/GithubSection";
 import CTASection from "@/components/sections/CTASection";
+import ScrollReveal from "@/components/ui/ScrollReveal";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
-      <AboutSection />
+      <ScrollReveal>
+        <AboutSection />
+      </ScrollReveal>
       <WorkSection />
       <ProblemsSection />
       <ServicesSection />
-      <ThoughtsSection />
+      <ScrollReveal>
+        <ThoughtsSection />
+      </ScrollReveal>
       <ToolsSection />
       <CooperateSection />
-      <WhyMeSection />
-      <GithubSection />
-      <CTASection />
+      <ScrollReveal>
+        <WhyMeSection />
+      </ScrollReveal>
+      <ScrollReveal stagger>
+        <GithubSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <CTASection />
+      </ScrollReveal>
     </main>
   );
 }

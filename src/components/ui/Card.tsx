@@ -33,12 +33,12 @@ export default function Card({ accent, flat = false, className = "", style, chil
 
   return (
     <div
-      className={`bg-[var(--surface)] border-[length:var(--border-width)] border-[var(--fg)] p-7 [box-shadow:var(--shadow-hard-sm)] transition-[box-shadow,transform] duration-[0.15s] ease hover:[box-shadow:var(--shadow-hover)] hover:translate-x-[-2px] hover:translate-y-[-2px] ${accent ? "pt-11 relative" : ""} ${className}`}
+      className={`bg-[var(--surface)] border-[length:var(--border-width)] border-[var(--fg)] p-7 [box-shadow:var(--shadow-hard-sm)] transition-[box-shadow,transform,border-color] duration-[0.15s] ease hover:[box-shadow:var(--shadow-hover)] hover:translate-x-[-2px] hover:translate-y-[-2px] ${accent ? "pt-11 relative" : ""} ${className}`}
       style={cardStyle}
     >
       {accent && (
         <div
-          className="absolute top-7 left-7 w-[14px] h-[14px] border-[length:var(--border-width)] border-[var(--fg)]"
+          className="absolute top-7 left-7 w-[14px] h-[14px] border-[length:var(--border-width)] border-[var(--fg)] transition-transform duration-[0.15s] ease group-hover:scale-[1.3]"
           style={{ background: accentColors[accent] }}
         />
       )}

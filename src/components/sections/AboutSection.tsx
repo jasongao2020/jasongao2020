@@ -2,6 +2,7 @@ import Section from "../layout/Section";
 import Container from "../layout/Container";
 import SectionHeader from "../ui/SectionHeader";
 import Card from "../ui/Card";
+import HighlightText from "../ui/HighlightText";
 
 export default function AboutSection() {
   return (
@@ -16,13 +17,13 @@ export default function AboutSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--gap-lg)] items-start">
           <p className="text-lg font-semibold leading-[1.7] m-0">
-            我是<span className="highlight">高平</span>。<br /><br />
+            我是<HighlightText>高平</HighlightText>。<br /><br />
             一个持续学习 AI、研究 AI、实践 AI 的人。<br /><br />
             我并非技术开发者，也不是算法专家。<br /><br />
             我更关注的是：<br />
-            <span className="highlight">AI 如何帮助普通人提高效率</span>；<br />
-            <span className="highlight">AI 如何帮助企业创造价值</span>；<br />
-            <span className="highlight">AI 如何帮助一个人完成过去需要一个团队才能完成的工作</span>。
+            <HighlightText>AI 如何帮助普通人提高效率</HighlightText>；<br />
+            <HighlightText>AI 如何帮助企业创造价值</HighlightText>；<br />
+            <HighlightText>AI 如何帮助一个人完成过去需要一个团队才能完成的工作</HighlightText>。
           </p>
 
           <Card style={{ background: "var(--accent-yellow)" }}>

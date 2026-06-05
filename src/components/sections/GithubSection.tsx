@@ -3,6 +3,7 @@ import Container from "../layout/Container";
 import SectionHeader from "../ui/SectionHeader";
 import Card from "../ui/Card";
 import Button from "../ui/Button";
+import GithubStats from "./GithubStats";
 
 type Repo = {
   id: number;
@@ -93,18 +94,13 @@ export default async function GithubSection() {
           {/* 统计数据 + 仓库列表 */}
           <div className="md:col-span-2">
             {/* 统计数字 */}
-            <div className="grid grid-cols-3 gap-[var(--gap-sm)] mb-[var(--gap-md)]">
-              {[
+            <GithubStats
+              stats={[
                 { label: "仓库", value: user.public_repos },
                 { label: "关注者", value: user.followers },
                 { label: "正在关注", value: user.following },
-              ].map((stat) => (
-                <Card key={stat.label} className="!p-4 text-center">
-                  <div className="num text-[var(--accent)] text-2xl font-black">{stat.value}</div>
-                  <p className="text-xs text-[var(--muted)] m-0 mt-1">{stat.label}</p>
-                </Card>
-              ))}
-            </div>
+              ]}
+            />
 
             {/* 仓库列表 */}
             {repos.length > 0 && (
