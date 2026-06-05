@@ -32,7 +32,13 @@ export default function Footer() {
           ))}
         </div>
 
-        <p className="text-xs opacity-40 mt-[var(--gap-xl)]">
+        <div className="flex justify-center mt-[var(--gap-xl)]">
+          <div className="text-center">
+            <img src="/qrcode.svg" alt="网站二维码" className="w-32 h-32 mx-auto invert" />
+            <p className="text-xs opacity-40 mt-2">扫码访问网站</p>
+          </div>
+        </div>
+        <p className="text-xs opacity-40 mt-[var(--gap-lg)]">
           © 2026 高平 · 保留所有权利
         </p>
       </Container>
