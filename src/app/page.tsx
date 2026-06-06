@@ -7,7 +7,6 @@ import ThoughtsSection from "@/components/sections/ThoughtsSection";
 import ToolsSection from "@/components/sections/ToolsSection";
 import CooperateSection from "@/components/sections/CooperateSection";
 import WhyMeSection from "@/components/sections/WhyMeSection";
-import GithubSection from "@/components/sections/GithubSection";
 import CTASection from "@/components/sections/CTASection";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
@@ -28,9 +27,6 @@ export default function Home() {
       <CooperateSection />
       <ScrollReveal>
         <WhyMeSection />
-      </ScrollReveal>
-      <ScrollReveal stagger>
-        <GithubSection />
       </ScrollReveal>
       <ScrollReveal>
         <CTASection />

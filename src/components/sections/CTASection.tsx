@@ -1,6 +1,6 @@
 import Section from "../layout/Section";
 import Container from "../layout/Container";
-import Button from "../ui/Button";
+import WechatContactButton from "../ui/WechatContactButton";
 
 export default function CTASection() {
   return (
@@ -22,9 +22,7 @@ export default function CTASection() {
         <p className="lead mx-auto my-[var(--gap-md)] !text-[var(--fg)] opacity-70">
           让 AI 成为普通人的超级生产力
         </p>
-        <Button variant="dark" arrow size="large">
-          与我联系
-        </Button>
+        <WechatContactButton />
       </Container>
     </Section>
   );

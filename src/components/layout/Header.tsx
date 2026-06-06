@@ -9,7 +9,6 @@ const navItems = [
   { href: "#services", label: "服务" },
   { href: "#thoughts", label: "思考" },
   { href: "#cooperate", label: "合作" },
-  { href: "#github", label: "开源" },
 ];
 
 export default function Header() {
