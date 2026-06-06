@@ -4,11 +4,11 @@ import { useState } from "react";
 import Container from "./Container";
 
 const navItems = [
+  { href: "#hero", label: "首页" },
   { href: "#about", label: "关于" },
-  { href: "#work", label: "工作" },
-  { href: "#services", label: "服务" },
+  { href: "#workflow", label: "实验室" },
   { href: "#thoughts", label: "思考" },
-  { href: "#cooperate", label: "合作" },
+  { href: "#cooperate", label: "联系" },
 ];
 
 export default function Header() {
