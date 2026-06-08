@@ -4,7 +4,7 @@ import WorkSection from "@/components/sections/WorkSection";
 import ProblemsSection from "@/components/sections/ProblemsSection";
 import ServicesSection from "@/components/sections/ServicesSection";
 import ThoughtsSection from "@/components/sections/ThoughtsSection";
-import ToolsSection from "@/components/sections/ToolsSection";
+import LabPreviewSection from "@/components/sections/LabPreviewSection";
 import CooperateSection from "@/components/sections/CooperateSection";
 import WhyMeSection from "@/components/sections/WhyMeSection";
 import CTASection from "@/components/sections/CTASection";
@@ -23,7 +23,7 @@ export default function Home() {
       <ScrollReveal>
         <ThoughtsSection />
       </ScrollReveal>
-      <ToolsSection />
+      <LabPreviewSection />
       <CooperateSection />
       <ScrollReveal>
         <WhyMeSection />

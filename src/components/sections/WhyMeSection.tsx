@@ -15,15 +15,15 @@ export default function WhyMeSection() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--gap-lg)] items-start">
-          <Card className="!bg-[var(--fg)] !text-[var(--bg)] !p-9">
+          <Card className="!bg-[var(--accent-blue)] !text-[var(--white)] !p-9 !border-[var(--fg)]">
             <p className="text-[19px] font-bold leading-[1.7] m-0">
               我不是卖软件。<br /><br />
               也不是卖课程。
             </p>
             <div className="mt-7 flex gap-3">
-              <span className="font-mono text-[11px] px-2 py-[3px] border-[1.5px] border-[var(--bg)]"># 连接者</span>
-              <span className="font-mono text-[11px] px-2 py-[3px] border-[1.5px] border-[var(--bg)]"># 翻译者</span>
-              <span className="font-mono text-[11px] px-2 py-[3px] border-[1.5px] border-[var(--bg)]"># 桥梁</span>
+              <span className="font-mono text-[11px] px-2 py-[3px] border-[1.5px] border-[var(--white)] opacity-80"># 连接者</span>
+              <span className="font-mono text-[11px] px-2 py-[3px] border-[1.5px] border-[var(--white)] opacity-80"># 翻译者</span>
+              <span className="font-mono text-[11px] px-2 py-[3px] border-[1.5px] border-[var(--white)] opacity-80"># 桥梁</span>
             </div>
           </Card>
 
