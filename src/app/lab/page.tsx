@@ -43,7 +43,7 @@ export default function LabPage() {
       {/* ═══════════════════════════════════════════
           四大实验室
           ═══════════════════════════════════════════ */}
-      {labCategories.map((cat) => (
+      {labCategories.filter(cat => cat.projects.length > 0).map((cat) => (
         <section
           key={cat.key}
           id={`lab-${cat.key}`}

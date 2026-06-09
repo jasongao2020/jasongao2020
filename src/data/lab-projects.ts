@@ -40,22 +40,7 @@ export const labCategories: LabCategory[] = [
       "未来趋势分析",
       "普通人AI转型路线图",
     ],
-    projects: [
-      {
-        id: "001",
-        title: "AI时代的一人公司",
-        tags: ["AI", "Business", "Future"],
-        status: "Completed",
-        description: "探索AI如何重构个人生产力与商业模式。",
-      },
-      {
-        id: "002",
-        title: "2026 AI创业机会地图",
-        tags: ["Research", "Opportunity"],
-        status: "Completed",
-        description: "发现未来3年值得关注的AI创业方向。",
-      },
-    ],
+    projects: [],
   },
   {
     key: "build",
@@ -74,26 +59,12 @@ export const labCategories: LabCategory[] = [
     ],
     projects: [
       {
-        id: "003",
-        title: "PEAU 水蜜桃品牌",
-        tags: ["Brand", "Website"],
-        status: "Building",
-        description: "从品牌命名到独立站的完整构建实践。",
-      },
-      {
         id: "004",
         title: "水蜜桃品牌独立站实验",
         tags: ["Brand", "Website", "AI Design"],
         status: "Building",
         description: "从农产品到品牌体验的数字化实践。",
         href: "/lab/peach-brand",
-      },
-      {
-        id: "NOVA",
-        title: "NOVA X Pro 游戏手柄品牌实验",
-        tags: ["Product", "Brand", "AI Video"],
-        status: "Building",
-        description: "通过AI完成品牌包装与产品宣传体系。",
       },
     ],
   },
@@ -148,22 +119,7 @@ export const labCategories: LabCategory[] = [
       "商业模式分析",
       "企业诊断",
     ],
-    projects: [
-      {
-        id: "007",
-        title: "AI企业服务平台研究",
-        tags: ["Research", "Strategy"],
-        status: "Researching",
-        description: "AI企业服务平台商业模型分析。",
-      },
-      {
-        id: "008",
-        title: "传统企业AI应用路线图",
-        tags: ["AI", "Consulting"],
-        status: "Researching",
-        description: "帮助企业找到适合自己的AI落地路径。",
-      },
-    ],
+    projects: [],
   },
 ];
 
