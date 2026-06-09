@@ -125,7 +125,7 @@ export default function DashboardTabs() {
               <span className="text-[var(--border)] ml-1">{m.source}</span>
             </p>
             <div className="flex items-baseline gap-1">
-              <span className="text-[32px] font-black leading-none" style={{ color: m.color }}>
+              <span className="text-[32px] font-black leading-none" style={{ color: p.color }}>
                 {m.value}
               </span>
               <span className="text-[13px] text-[var(--muted)]">{m.sub}</span>
