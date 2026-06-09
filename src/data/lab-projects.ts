@@ -8,6 +8,8 @@ export interface LabProject {
   tags: string[];
   status: LabStatus;
   description: string;
+  /** 子页面路由，如 /lab/peach-brand */
+  href?: string;
 }
 
 export interface LabCategory {
@@ -80,6 +82,14 @@ export const labCategories: LabCategory[] = [
       },
       {
         id: "004",
+        title: "水蜜桃品牌独立站实验",
+        tags: ["Brand", "Website", "AI Design"],
+        status: "Building",
+        description: "从农产品到品牌体验的数字化实践。",
+        href: "/lab/peach-brand",
+      },
+      {
+        id: "NOVA",
         title: "NOVA X Pro 游戏手柄品牌实验",
         tags: ["Product", "Brand", "AI Video"],
         status: "Building",
@@ -96,6 +106,7 @@ export const labCategories: LabCategory[] = [
     colorClass: "lab-present",
     description: "利用视觉与内容传播价值。",
     showcases: [
+      "交互设计",
       "宣传片",
       "广告视频",
       "画册设计",
@@ -106,17 +117,19 @@ export const labCategories: LabCategory[] = [
     projects: [
       {
         id: "005",
-        title: "NOVA X Pro 品牌宣传片",
-        tags: ["Video", "Marketing"],
+        title: "GAMEFLOW · 游戏手柄交互",
+        tags: ["Interaction", "Gaming", "Video"],
         status: "Completed",
-        description: "从品牌策略到广告片完整制作流程。",
+        description: "沉浸式游戏控制体验 — 动态演示与交互设计。",
+        href: "/lab/interaction",
       },
       {
         id: "006",
-        title: "PEAU 品牌视觉手册",
-        tags: ["Visual", "Brochure"],
+        title: "NEXUS PANEL · 智能控制台",
+        tags: ["Interaction", "Hardware", "Video"],
         status: "Completed",
-        description: "品牌视觉系统与传播物料设计。",
+        description: "智能硬件交互界面 — 实体控制与数字融合。",
+        href: "/lab/interaction",
       },
     ],
   },
