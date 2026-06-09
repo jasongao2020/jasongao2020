@@ -88,7 +88,7 @@ export default function ServicesSection() {
     <Section id="services">
       <Container>
         <SectionHeader
-          eyebrow="04 · 服务范围"
+          eyebrow="05 · 服务范围"
           eyebrowVariant="green"
           title="我能提供什么服务"
         />

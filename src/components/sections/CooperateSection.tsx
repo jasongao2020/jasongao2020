@@ -16,7 +16,7 @@ export default function CooperateSection() {
     <Section id="cooperate">
       <Container>
         <SectionHeader
-          eyebrow="07 · 合作方式"
+          eyebrow="08 · 合作方式"
           eyebrowVariant="coral"
           title="合作模式"
         />

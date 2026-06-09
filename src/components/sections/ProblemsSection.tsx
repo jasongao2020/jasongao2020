@@ -15,7 +15,7 @@ export default function ProblemsSection() {
     <Section id="problems">
       <Container>
         <SectionHeader
-          eyebrow="03 · 问题解决"
+          eyebrow="04 · 问题解决"
           eyebrowVariant="coral"
           title="我能解决什么问题"
           star

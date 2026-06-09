@@ -18,12 +18,12 @@ export default function Home() {
         <AboutSection />
       </ScrollReveal>
       <WorkSection />
+      <LabPreviewSection />
       <ProblemsSection />
       <ServicesSection />
       <ScrollReveal>
         <ThoughtsSection />
       </ScrollReveal>
-      <LabPreviewSection />
       <CooperateSection />
       <ScrollReveal>
         <WhyMeSection />

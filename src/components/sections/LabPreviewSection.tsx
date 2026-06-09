@@ -10,7 +10,7 @@ export default function LabPreviewSection() {
     <Section id="workflow">
       <Container>
         <SectionHeader
-          eyebrow="03 · 实验室"
+          eyebrow="03 · 实验作品"
           eyebrowVariant="accent"
           title="jasongao的实验室"
           lead="从一个想法开始，到形成价值。"

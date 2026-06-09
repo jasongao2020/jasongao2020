@@ -8,7 +8,7 @@ export default function WhyMeSection() {
     <Section id="why-me">
       <Container>
         <SectionHeader
-          eyebrow="08 · 差异点"
+          eyebrow="09 · 差异点"
           eyebrowVariant="accent"
           title="为什么与我交流"
           star

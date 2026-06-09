@@ -15,7 +15,7 @@ export default function ThoughtsSection() {
     <Section id="thoughts">
       <Container>
         <SectionHeader
-          eyebrow="05 · 深度思考"
+          eyebrow="06 · 深度思考"
           eyebrowVariant="yellow"
           title="我的思考"
         />

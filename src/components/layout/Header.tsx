@@ -6,7 +6,7 @@ import Container from "./Container";
 const navItems = [
   { href: "/#hero", label: "首页" },
   { href: "/#about", label: "关于" },
-  { href: "/lab", label: "实验室" },
+  { href: "/lab", label: "实验作品" },
   { href: "/#thoughts", label: "思考" },
   { href: "/#cooperate", label: "联系" },
 ];
