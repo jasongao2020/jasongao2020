@@ -12,7 +12,7 @@ export default function LabPreviewSection() {
         <SectionHeader
           eyebrow="03 · 实验作品"
           eyebrowVariant="accent"
-          title="jasongao的实验室"
+          title="jasongao的实验作品"
           lead="从一个想法开始，到形成价值。"
         />
 

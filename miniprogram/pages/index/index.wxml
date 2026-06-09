@@ -1,0 +1,1 @@
+<web-view src="https://gaoping.site" bindmessage="onMessage" bindload="onLoad" binderror="onError" />

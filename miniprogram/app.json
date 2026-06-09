@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarTitleText": "高平",
+    "navigationBarBackgroundColor": "#FFFDF5",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFDF5"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
