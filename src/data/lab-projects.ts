@@ -87,14 +87,6 @@ export const labCategories: LabCategory[] = [
     ],
     projects: [
       {
-        id: "005",
-        title: "GAMEFLOW · 游戏手柄交互",
-        tags: ["Interaction", "Gaming", "Video"],
-        status: "Completed",
-        description: "沉浸式游戏控制体验 — 动态演示与交互设计。",
-        href: "/lab/interaction",
-      },
-      {
         id: "006",
         title: "NEXUS PANEL · 智能控制台",
         tags: ["Interaction", "Hardware", "Video"],
