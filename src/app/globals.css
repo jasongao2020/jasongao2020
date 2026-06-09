@@ -233,6 +233,15 @@ h1, h2, h3, h4 { text-wrap: balance; margin: 0; }
   background-size: 100% 100%;
 }
 
+/* 页面进入动画 */
+@keyframes pageIn {
+  0% { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.page-enter {
+  animation: pageIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 /* 卡片悬停增强：口音色浮起 */
 .card-accent-hover {
   transition: box-shadow 0.15s ease, transform 0.15s ease, border-color 0.15s ease;

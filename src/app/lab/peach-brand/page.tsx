@@ -38,19 +38,18 @@ const relatedLabs = [
 
 export default function PeachBrandPage() {
   return (
-    <main>
+    <main className="page-enter">
       {/* ═══════ 第一部分：项目概览 ═══════ */}
       <section className="py-[clamp(72px,12vw,140px)] border-b-[length:var(--border-width)] border-b-[var(--fg)]">
         <Container>
           <div className="max-w-[60ch]">
-            {/* 面包屑 */}
-            <div className="flex items-center gap-2 text-[13px] font-semibold text-[var(--muted)] mb-6">
-              <Link href="/lab" className="hover:text-[var(--fg)] transition-colors">
-                ← 实验作品
-              </Link>
-              <span>/</span>
-              <span className="text-[var(--fg)]">Build Lab</span>
-            </div>
+            {/* 返回按钮 */}
+            <Link
+              href="/lab"
+              className="inline-flex items-center gap-2 text-[13px] font-bold text-[var(--muted)] hover:text-[var(--fg)] transition-colors mb-6"
+            >
+              <span className="text-[16px]">←</span> 返回实验作品
+            </Link>
 
             <p className="font-mono text-[13px] font-bold text-[var(--accent-blue)] tracking-[0.08em] mb-2">
               Lab #004 · Build Lab

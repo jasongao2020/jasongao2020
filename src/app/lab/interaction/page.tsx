@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
+import VideoPlayer from "@/components/lab/VideoPlayer";
 
 export const metadata: Metadata = {
   title: "Interaction Lab · 交互体验设计",
@@ -46,22 +47,18 @@ const projects = [
 
 export default function InteractionLabPage() {
   return (
-    <main>
+    <main className="page-enter">
       {/* ═══════ Hero ═══════ */}
       <section className="py-[clamp(72px,10vw,120px)] border-b-[length:var(--border-width)] border-b-[var(--fg)] bg-[var(--fg)] text-[var(--bg)]">
         <Container>
           <div className="max-w-[60ch]">
-            {/* 面包屑 */}
-            <div className="flex items-center gap-2 text-[13px] font-semibold text-[var(--bg)] opacity-50 mb-6">
-              <Link
-                href="/lab"
-                className="hover:opacity-100 transition-opacity"
-              >
-                ← 实验作品
-              </Link>
-              <span>/</span>
-              <span className="opacity-80">Present Lab</span>
-            </div>
+            {/* 返回按钮 */}
+            <Link
+              href="/lab"
+              className="inline-flex items-center gap-2 text-[13px] font-bold text-[var(--bg)] opacity-50 hover:opacity-100 transition-opacity mb-6"
+            >
+              <span className="text-[16px]">←</span> 返回实验作品
+            </Link>
 
             <p className="font-mono text-[13px] font-bold tracking-[0.08em] mb-2" style={{ color: "var(--accent-coral)" }}>
               Interaction Lab
@@ -153,22 +150,7 @@ export default function InteractionLabPage() {
 
                 {/* 视频区域 */}
                 <div className={isEven ? "lg:order-2" : "lg:order-1"}>
-                  <div className="relative bg-[var(--fg)] border-[length:var(--border-width)] border-[var(--fg)] overflow-hidden" style={{ borderRadius: "16px", boxShadow: "8px 8px 0 var(--fg)" }}>
-                    {/* 顶部栏装饰 */}
-                    <div className="flex items-center gap-2 px-4 py-3 bg-[var(--fg)]">
-                      <span className="w-3 h-3 rounded-full bg-[#FF5E3A]" />
-                      <span className="w-3 h-3 rounded-full bg-[#FFD600]" />
-                      <span className="w-3 h-3 rounded-full bg-[#00C853]" />
-                    </div>
-                    <video
-                      src={project.video}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      className="w-full h-auto"
-                    />
-                  </div>
+                  <VideoPlayer src={project.video} />
                 </div>
               </div>
             </Container>
