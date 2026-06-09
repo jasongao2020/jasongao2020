@@ -119,7 +119,16 @@ export const labCategories: LabCategory[] = [
       "商业模式分析",
       "企业诊断",
     ],
-    projects: [],
+    projects: [
+      {
+        id: "007",
+        title: "糯雅芳粥 · 外卖平台竞争分析",
+        tags: ["Data Analysis", "Competitive", "Insight"],
+        status: "Completed",
+        description: "即时零售平台如何重构单店商业结构 — 三平台对比分析。",
+        href: "/lab/nuya-porridge",
+      },
+    ],
   },
 ];
 
