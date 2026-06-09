@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Container from "@/components/layout/Container";
 import LabCard from "@/components/lab/LabCard";
+import BackToLab from "@/components/lab/BackToLab";
 import { labCategories, labPageData } from "@/data/lab-projects";
 
 export const metadata: Metadata = {
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 export default function LabPage() {
   return (
     <main>
+      <BackToLab href="/" label="返回首页" />
       {/* ═══════════════════════════════════════════
           页面头部
           ═══════════════════════════════════════════ */}
