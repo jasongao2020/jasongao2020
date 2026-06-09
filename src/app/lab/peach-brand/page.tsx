@@ -3,6 +3,7 @@ import Link from "next/link";
 import Container from "@/components/layout/Container";
 import Section from "@/components/layout/Section";
 import Button from "@/components/ui/Button";
+import BackToLab from "@/components/lab/BackToLab";
 
 export const metadata: Metadata = {
   title: "Lab #004 · 水蜜桃品牌独立站实验",
@@ -39,6 +40,7 @@ const relatedLabs = [
 export default function PeachBrandPage() {
   return (
     <main className="page-enter">
+      <BackToLab />
       {/* ═══════ 第一部分：项目概览 ═══════ */}
       <section className="py-[clamp(72px,12vw,140px)] border-b-[length:var(--border-width)] border-b-[var(--fg)]">
         <Container>

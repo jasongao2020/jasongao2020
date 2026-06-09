@@ -4,6 +4,7 @@ import Container from "@/components/layout/Container";
 import Section from "@/components/layout/Section";
 import Button from "@/components/ui/Button";
 import DashboardTabs from "@/components/lab/DashboardTabs";
+import BackToLab from "@/components/lab/BackToLab";
 
 export const metadata: Metadata = {
   title: "Lab #007 · 糯雅芳粥外卖竞争分析",
@@ -155,6 +156,7 @@ const conclusions = [
 export default function NuyaPorridgePage() {
   return (
     <main className="page-enter">
+      <BackToLab />
       {/* ═══════ 1. Hero ═══════ */}
       <section className="py-[clamp(72px,12vw,140px)] border-b-[length:var(--border-width)] border-b-[var(--fg)]">
         <Container>

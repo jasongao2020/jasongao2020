@@ -3,6 +3,7 @@ import Link from "next/link";
 import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
 import VideoPlayer from "@/components/lab/VideoPlayer";
+import BackToLab from "@/components/lab/BackToLab";
 
 export const metadata: Metadata = {
   title: "Interaction Lab · 交互体验设计",
@@ -48,6 +49,7 @@ const projects = [
 export default function InteractionLabPage() {
   return (
     <main className="page-enter">
+      <BackToLab />
       {/* ═══════ Hero ═══════ */}
       <section className="py-[clamp(72px,10vw,120px)] border-b-[length:var(--border-width)] border-b-[var(--fg)] bg-[var(--fg)] text-[var(--bg)]">
         <Container>
