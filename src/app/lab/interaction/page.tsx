@@ -146,7 +146,7 @@ export default function InteractionLabPage() {
                   </div>
 
                   {/* CTA */}
-                  <Button href="#" variant="outline" size="medium" arrow>
+                  <Button href="#" variant="outline" size="default" arrow>
                     查看案例
                   </Button>
                 </div>
